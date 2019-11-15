@@ -1,0 +1,43 @@
+#navbar-container{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+#main-navbar{
+	background-color: blue;
+	overflow: hidden;
+}
+#main-navbar ul{
+	left:50%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	list-style-type: none;
+	display: block;
+}
+#main-navbar ul li{
+	float: left;
+	right: 50%;
+	position: relative;
+}
+#main-navbar ul li a{
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+#main-navbar ul li a:hover{
+	background-color: #000;
+}
+#main-navbar #onpage{
+	text-decoration: underline overline;
+}
+
+#sidebar{
+	position: fixed;
+	right: 0%;
+	background-color: red;
+	height: 100%;
+	width: 20%;
+}
